@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateClient",
+            "request": "launch",
+            "mainClass": "SingleInteration.DateClient",
+            "projectName": "JavaSocket_35fc5438"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateServer",
+            "request": "launch",
+            "mainClass": "SingleInteration.DateServer",
+            "projectName": "JavaSocket_35fc5438"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameClient",
+            "request": "launch",
+            "mainClass": "PersistentConnection.NameClient",
+            "projectName": "JavaSocket_35fc5438"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameServer",
+            "request": "launch",
+            "mainClass": "PersistentConnection.NameServer",
+            "projectName": "JavaSocket_35fc5438"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "MultipleConnections.Client",
+            "projectName": "JavaSocket_35fc5438"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "MultipleConnections.Server",
+            "projectName": "JavaSocket_35fc5438"
+        }
+    ]
+}
